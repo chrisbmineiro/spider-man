@@ -1,4 +1,3 @@
-@import url('/src/css/reset.css');
 @import url('/src/css/globals.css');
 
 body {
@@ -6,7 +5,7 @@ body {
 }
 
 body::before {
-    content: '';
+    content: "";
     background-image: url('/src/img/spider-man-background.jpg');
     background: no-repeat;
     background-position: center;
@@ -64,7 +63,6 @@ body::before {
     object-fit: contain;
     position: relative;
 }
-
 .s-card__title {
     font-size: 2rem;
     text-align: center;
@@ -72,3 +70,4 @@ body::before {
     width: 100%;
     bottom: 0;
 }
+
